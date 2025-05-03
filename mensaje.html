@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡TKM Y MUCHO MAS CORAZON DEMELON!</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <!-- Audio oculto -->
+    <audio id="musicaFondo" loop>
+        <source src="musica.mp3" type="audio/mpeg">
+        Tu navegador no soporta audio HTML5.
+    </audio>
+
+    <div class="card">
+        <h1>¡Gracias por aceptar :3!❤️</h1>
+        <p>(antes de lee lo demas, pulsa o dale clic en cualquier parte de la pantalla, para mas ambiente:3)Entonces, nos vemos a las 3 o 4 pm va:3. Bueno no necesariamente hoy, puede ser mañana tambien si deseas,pero me avisas sip.¡Te quiero muchísimo! 💕</p>
+    </div>
+    <div class="gif_container">
+        <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmo3c3l5ODh3ZGN6NHhhaDE2Mjg1ZjkwOXczdDFxbWM3dTBtaW9zaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/9XY4f3FgFTT4QlaYqa/giphy.gif">
+    </div>
+
+    <script>
+        document.body.addEventListener('click', function () {
+            const audio = document.getElementById('musicaFondo');
+            audio.play();
+        }, { once: true });
+    </script>
+</body>
+</html>
